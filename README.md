@@ -1,6 +1,6 @@
 # Confluent Kafka Demo - Vehicle Coordinates
 
-This project demonstrates a real-world application of Apache Kafka for handling streaming IoT data at scale. It constructs a web server using Kafka, employing Docker for creating a Kafka cluster, Python for publishing vehicle location data, and Node.js for consuming the published data. This demo provides a solid foundation for understanding how to work with Kafka in a microservices architecture. The Word file "Screenshots of Project Execution" is my submission to the project on Kafka for MIT (see **License** for more info).
+This project demonstrates a real-world application of Apache Kafka for handling streaming IoT data at scale. It constructs a web server using Kafka, employing Docker for creating a Kafka cluster, Python for publishing vehicle location data, and Node.js for consuming the published data. This demo provides a solid foundation for understanding how to work with Kafka in a microservices architecture. The Word file "Screenshots of Project Execution" is my submission to the project on Kafka for MIT.
 
 ## Installation
 ### Prerequisites
