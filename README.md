@@ -21,9 +21,8 @@ This project demonstrates a real-world application of Apache Kafka for handling 
 
 ### 3. Windows Users:
 - Inside your user home folder (`C:\Users\YOUR_WINDOWS_USERNAME`), create a .wslconfig file with the following configuration:
-- Allocate at least 6 GB of memory under the Resources tab.
-  
-`[wsl2]
+- Allocate at least 6 GB of memory under the Resources tab.  
+`[wsl2]  
 memory=8GB # Limits VM memory in WSL 2  
 processors=4 # Makes the WSL 2 VM use 4 virtual processors  
 localhostForwarding=true # Enables localhost forwarding`
@@ -45,7 +44,7 @@ Install the required Python and Node.js dependencies:
 
 ### Mac Users:
 
-- In a Terminal window, run the commands below to install the Express and node-rdkafka libraries:
+- In a Terminal window, run the commands below to install the Express and node-rdkafka libraries:  
 `sudo xcode-select --reset`  
 `npm install express`  
 `npm install node-rdkafka`
