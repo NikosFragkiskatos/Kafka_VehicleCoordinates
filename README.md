@@ -40,9 +40,8 @@ Install the required Python and Node.js dependencies:
 ### Windows Users:
 
 - In a Terminal window, run the commands below to install the Express and node-rdkafka libraries:  
-`npm install express`
-
-`npm install node-rdkafka`
+  `npm install express`  
+  `npm install node-rdkafka`
 
 ### Mac Users:
 
