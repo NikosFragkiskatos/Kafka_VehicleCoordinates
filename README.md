@@ -20,11 +20,13 @@ This project demonstrates a real-world application of Apache Kafka for handling 
 - Allocate at least 6 GB of memory under the Resources tab.
 
 ### 3. Windows Users:
-- Inside your user home folder (`C:\Users\YOUR_WINDOWS_USERNAME`), create a .wslconfig file with the following configuration:
-- Allocate at least 6 GB of memory under the Resources tab.  
-`[wsl2]  
+- Inside your user home folder (`C:\Users\YOUR_WINDOWS_USERNAME`), create a .wslconfig file with the following configuration:  
+`[wsl2]
+
 memory=8GB # Limits VM memory in WSL 2  
+
 processors=4 # Makes the WSL 2 VM use 4 virtual processors  
+
 localhostForwarding=true # Enables localhost forwarding`
 
 ### 4. Initialize Kafka Container:
