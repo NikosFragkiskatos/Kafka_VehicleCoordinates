@@ -35,9 +35,20 @@ Verify that the Kafka container components are up and running in Docker Desktop.
 
 ## Dependencies
 
-Install the required Python and Node.js dependencies:
-pip install kafka-python
-npm install
+Install the required Python and Node.js dependencies:  
+### Windows Users:
+
+- In a Terminal window, run the commands below to install the Express and node-rdkafka libraries:  
+`npm install express`
+`npm install node-rdkafka`
+
+### Mac Users:
+
+- In a Terminal window, run the commands below to install the Express and node-rdkafka libraries:
+`sudo xcode-select --reset`
+`npm install express`
+`npm install node-rdkafka`
+
 ## Usage
 
 ### 1. Start the Kafka Producer:
@@ -66,6 +77,6 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## License
 
-This project is licensed under the MIT License - see the `LICENSE.md` file for details.
+This project is licensed under the MIT License - see the `LICENSE.txt` file for details.
 
 
