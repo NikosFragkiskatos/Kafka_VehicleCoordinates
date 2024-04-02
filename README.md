@@ -23,14 +23,15 @@ This project demonstrates a real-world application of Apache Kafka for handling 
 - Inside your user home folder (`C:\Users\YOUR_WINDOWS_USERNAME`), create a .wslconfig file with the following configuration:
 - Allocate at least 6 GB of memory under the Resources tab.
   
-`[wsl2]`
-`memory=8GB # Limits VM memory in WSL 2`  
-`processors=4 # Makes the WSL 2 VM use 4 virtual processors`  
-`localhostForwarding=true # Enables localhost forwarding`
+`[wsl2]
+memory=8GB # Limits VM memory in WSL 2  
+processors=4 # Makes the WSL 2 VM use 4 virtual processors  
+localhostForwarding=true # Enables localhost forwarding`
 
 ### 4. Initialize Kafka Container:
 - Navigate to the kafka-docker folder and run:
-docker-compose up
+`docker-compose up`
+
 Verify that the Kafka container components are up and running in Docker Desktop.
 
 ## Dependencies
@@ -40,13 +41,14 @@ Install the required Python and Node.js dependencies:
 
 - In a Terminal window, run the commands below to install the Express and node-rdkafka libraries:  
 `npm install express`
+
 `npm install node-rdkafka`
 
 ### Mac Users:
 
 - In a Terminal window, run the commands below to install the Express and node-rdkafka libraries:
-`sudo xcode-select --reset`
-`npm install express`
+`sudo xcode-select --reset`  
+`npm install express`  
 `npm install node-rdkafka`
 
 ## Usage
