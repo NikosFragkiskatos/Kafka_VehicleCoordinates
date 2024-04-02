@@ -24,8 +24,8 @@ This project demonstrates a real-world application of Apache Kafka for handling 
 - Allocate at least 6 GB of memory under the Resources tab.
   
 [wsl2]
-`memory=8GB # Limits VM memory in WSL 2
-processors=4 # Makes the WSL 2 VM use 4 virtual processors
+`memory=8GB # Limits VM memory in WSL 2  
+processors=4 # Makes the WSL 2 VM use 4 virtual processors  
 localhostForwarding=true # Enables localhost forwarding`
 
 ### 4. Initialize Kafka Container:
